@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="/css/stylesheet.css" rel="stylesheet" />
+
+  <!-- https://css-tricks.com/the-current-state-of-telephone-links/ -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/svg/favicon/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/svg/favicon/favicon.png">
+
+  <script src="/assets/js/nav.js" defer></script>
+  <!-- <script defer>
+    const primaryNav = document.querySelector(".primary-navigation");
+    const navToggle = document.querySelector(".mobile-nav-toggle");
+
+    navToggle.addEventListener("click", () => {
+      const visibility = primaryNav.getAttribute("data-visible");
+
+      if (visibility === "false") {
+        primaryNav.setAttribute("data-visible", true);
+      } else if (visibility === "true") {
+        primaryNav.setAttribute("data-visible", false);
+      }
+    });
+  </script> -->
+
+</head>
+<body>
+
+  
+
+<header class="site-header">
+  <div class="site-header__container flex">
+
+    <!-- Skip to main content
+      <a href="#main-content" class="skip-link visually-hidden">Skip to content</a>
+    -->
+
+    <a class="site-header__brand" href="/" aria-label="Eve esztétika">
+      <img src="/assets/svg/Eve-esztetika-logo.svg" alt="">
+    </a>
+
+
+
+
+    <!-- Navigation button -->
+    <button
+      class="mobile-nav-toggle"
+      aria-controls="primary-navigation"
+      aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <!-- Navigation primary -->
+    <nav
+      id="nav"
+      class="site-navigation"
+      role="navigation"
+      aria-label="primary">
+
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" role="list">
+
+
+        
+          <li class="nav-active">
+            <a href="/">Rólam</a>
+          </li>
+          <li>
+            <a href="/esztetikai.html">Esztétika</a>
+          </li>
+          <li>
+            <a href="/szortelenites.html">Szőrtelenítés</a>
+          </li>
+          <li>
+            <a href="/naturys.html">Naturys</a>
+          </li>
+          <li>
+            <a href="/alakformalas.html">Alakformálás</a>
+          </li>
+          <li>
+            <a href="/arlista.html">Árlista</a>
+          </li>
+          <li>
+            <a href="/kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="/visszajelzes.html">Visszajelzések</a>
+          </li>
+
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+  
+
+
+  <!--* MAIN -->
+  <main class="site-main home-page">
+    <section class="hero grid-centered">
+      <picture>
+        <img
+          sizes="(max-width: 1080px) 100vw, 1080px"
+          srcset="
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_200.jpg 200w,
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_501.jpg 501w,
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_713.jpg 713w,
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_852.jpg 852w,
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_1039.jpg 1039w,
+            ../assets/images/Eve_hero_ymo5ja_c_scale,w_1080.jpg 1080w"
+          src="../assets/images/Eve_hero_ymo5ja_c_scale,w_1080.jpg"
+          alt="">
+        </picture>
+    </section>
+
+    <section class="limited-width">
+
+      <article>
+        <h2 class="heading-1 centered-text">Miért az <span>Eve Esztétika</span> a legjobb választás számodra?</h2>
+
+        <div class="even-columns">
+          <section>
+            <h2 class="heading-2">Szaktudás</h2>
+            <p>
+              Több, mint 10 éves tapasztalattal rendelkezem a fényterápiás kezelések területén.
+              Több száz sikeres kezelést végeztem ez idő alatt.
+              Nincs futószalag, egyszerre csak egy vendéggel foglalkozok, hogy a lehető legjobb szolgáltatást tudjam nyújtani.
+              A folyamatos szakmai képzés, tanulás ezen a területen is elengedhetetlen számomra.
+            </p>
+
+            <h2 class="heading-2">Új generációs technológia</h2>
+            <p>
+              A legújabb és legmodernebb E-Light (IPL + RF) készülékek és bőrfiatalító, alakformáló gépek állnak a rendelkezésemre.
+              Az E-Light kombinálja az IPL-villanófény (Intense Pulsed Light) és RF (Bi-Polar Radio Frequency) technológiákat, ezáltal a világosabb, vékonyabb szőrszálakat is hatásosan tudja kezelni.
+            </p>
+            <p>
+              Emellett a bőrproblémákat is nagyobb hatásfokkal kezeli. Hasonló tudású gépeket nem találni a piacon. Ebbe fektettem a legtöbb energiát a szalon nyitásánál és a fejlesztéseknél is. A sikeres kezelések egyik alapja a professzionális gép kiválasztása.
+            </p>
+
+            <h2 class="heading-2">Kozmetikumok, felszerelések</h2>
+            <p>
+              Az évek alatt rengeteg kozmetikummal találkoztam, az alacsony, közép és felső árkategóriában is. A laikusok nem tudják eldönteni, de még a kozmetikusok közül is sokan akadnak olyanok, akik a jól hangzó reklámszövegnek bedőlve megvásárolnak olyan kozmetikumokat, amik nem hozzák a várva-várt hatást.
+            </p>
+            <p>
+              Míg nem voltam tisztában a bőr felépítésével, működésével és a hatóanyagokkal, természetesen én is beleestem ezekbe a csapdákba.
+            </p>
+            <p>
+              Súlyos aknés bőrbetegségem volt,  rengeteg krémet, módszert kipróbáltam már, így pontosan tudom, hogy minek van értelme és mi az, ami csak reklámfogás, legyen szó pattanásos bőrről, pigmentfoltos, értágulatos, gyulladt, vagy dehidratált ráncosodásra hajlamos bőrről.
+            </p>
+          </section>
+
+          <section>
+            <h2 class="heading-2">Korrektség</h2>
+            <p>
+              Bizony, nagy szó ez és a mai világban ahol sokaknál a pénz áll az első helyen és a korrektség már-már kihalóban van.
+            </p>
+
+            <p>
+              Ha például a konzultáció során úgy látom, hogy nem vagy alkalmas tegyük fel egy E-Light (IPL + RF) szőrtelenítésre,
+              mert túl világos a szőröd akkor megmondom,
+              és inkább ajánlok neked egy kevésbé költséges de biztos eredményt ígérő másik megoldást pl.: italwax!
+              Nem köntörfalazok! Nem kergetlek álmokba és kérek el pénzt totál feleslegesen.
+            </p>
+            <p>
+              Én sem díjaznám, ha ezt tennék velem és szomorú, hogy ezt le kellett írnom külön kiemelve, hisz alapesetben ez lenne a normális.
+            </p>
+
+            <h2 class="heading-2">Kapcsolattartás</h2>
+            <p>
+              Nem engedem el a kezed a kúrák alatt, sem azok végeztével. Bármikor el tudsz érni, és megtalálsz a kérdéseiddel, kéréseiddel. Kérdezz bátran!
+            </p>
+
+            <h2 class="heading-2">Magamról</h2>
+            <p>
+              Csókási Éva vagyok. Több mint 10 éve foglalkozok fényterápiás és egyéb esztétikai kezelésekkel.
+              Sok vendégem megjegyzi, hogy ritkán találkoznak olyan emberrel, aki annyira szereti a munkáját, mint én.
+            </p>
+            <p>
+              Ez valóban így van, és ez a munkaszeretet évek óta töretlen.
+            </p>
+            <p>
+              Aki a szépségiparban dolgozik, az tudja milyen, ha valakinek nem csak a külsejét,  hanem az életminőségét is javítod. A külsőnk és a belsőnk mindig tükröződik. A kettőnek összhangban kell lennie. Ha az egyik oldalt "javítod" automatikusan hat a másik oldalra is és ezt látni, megélni együtt a vendégekkel óriási öröm számomra.
+            </p>
+          </section>
+        </div>
+
+        <div class="button-container grid-centered CTA">
+          <a class="button" data-icon="messenger" href="https://m.me/eveesztetika">Kérek időpontot</a>
+        </div>
+      </article>
+
+    </section>
+
+    <h2 class="heading-1 grid-centered">Kezelések</h2>
+
+    <!-- TREATMENTS PAGE PREVIEW -->
+    <section class="treatments-page-preview">
+
+
+      <section>
+        <article class="thumbnail">
+          <img src="/assets/images/armpit--300px.jpg" alt="">
+          <div class="thumbnail-text">
+            <h3>Szőrtelenítés</h3>
+            <ul>
+              <li>ItalWax szőrtelenítés</li>
+              <li>E-Light lézeres szőrtelenítés</li>
+              <li>(IPL + RF) villanófényes szőrtelenítés</li>
+              <li>Tűs epilálás, elektrolízises szőrtelenítés</li>
+              <li>Intim szőrtelenítés</li>
+            </ul>
+          </div>
+          <div class="button-container centered">
+            <a class="button" href="szortelenites">Megnézem</a>
+          </div>
+        </article>
+
+        <article class="thumbnail">
+          <img src="/assets/images/elektrokozmetika--300px.jpg" alt="">
+          <div class="thumbnail-text">
+            <h3>Elektrokozmetikai kezelések</h3>
+            <ul>
+              <li>Arcfiatalítás</li>
+              <li>Májfolt, pigment-folt halványítása</li>
+              <li>Hajszálér kezelések</li>
+              <li>Pattanásos bőr kezelése</li>
+            </ul>
+          </div>
+          <div class="button-container centered">
+            <a class="button" href="esztetikai">Megnézem</a>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article class="thumbnail">
+          <img src="/assets/images/naturys--300px.jpg" alt="">
+          <div class="thumbnail-text">
+            <h3>Natúrys bio arckezelések</h3>
+            <ul>
+              <li>Problémás, száraz, érzékeny bőr kezelése</li>
+              <li>Pigmentált bőr kezelése</li>
+              <li>Hyaluron + C-vitaminos kezelés</li>
+              <li>Anti-aging kezelés</li>
+              <li>Advance Lifting, luxus bőrfiatalító arckezelés</li>
+              <li>S.O.S arckezelés</li>
+            </ul>
+          </div>
+          <div class="button-container centered">
+            <a class="button" href="naturys">Megnézem</a>
+          </div>
+        </article>
+
+
+        <article class="thumbnail">
+          <img src="/assets/images/alakformalas--300px.jpg" alt="">
+          <div class="thumbnail-text">
+            <h3>Alakformálás</h3>
+            <p>Egymásra épülő kezelések - centiben mérhető eredmény már az első kezelés után</p>
+            <ul>
+              <li>Ultrahangos-kavitációs alakformálás</li>
+              <li>Multipoláris rádiófrekvencia vörös fotonnal</li>
+              <li>Testtekercselés</li>
+            </ul>
+          </div>
+          <div class="button-container centered">
+            <a class="button" href="alakformalas">Megnézem</a>
+          </div>
+        </article>
+      </section>
+
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <address>
+      Eve Esztétika
+      <br>
+      4029 Debrecen <br>
+      Monostor utca 10. 4/13. <br>
+      +36 (70) 884-8445
+
+    </address>
+    <address class="address">
+      <div class="social">
+
+
+          <!-- facebook -->
+          <a class="logo" aria-label="facebook" href="https://www.facebook.com/eveesztetika">
+              <!-- Hide the icon from assistive technology -->
+              <svg class="facebook"  aria-hidden="true" focusable="false"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 12C22 6.47656 17.5234 2 12 2C6.47656 2 2 6.47656 2 12C2 17.5234 6.47656 22 12 22C12.0586 22 12.1172 22 12.1758 21.9961V14.2148H10.0273V11.7109H12.1758V9.86719C12.1758 7.73047 13.4805 6.56641 15.3867 6.56641C16.3008 6.56641 17.0859 6.63281 17.3125 6.66406V8.89844H16C14.9648 8.89844 14.7617 9.39062 14.7617 10.1133V11.707H17.2422L16.918 14.2109H14.7617V21.6133C18.9414 20.4141 22 16.5664 22 12Z"/>
+              </svg>
+              <!-- Acts as a label that is hidden from view -->
+              <span class="visually-hidden">https://www.facebook.com/eveesztetika</span>
+          </a>
+
+
+          <!-- messenger -->
+          <a class="logo" aria-label="messenger" href="https://messenger.com/t/eveesztetika">
+              <!-- Hide the icon from assistive technology -->
+              <svg class="messenger"  aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.4368 10.2114L8.19641 13.6422L11.1453 12.0241L12.6862 13.6422L15.9084 10.2114L12.9921 11.801L11.4368 10.2114Z"/>
+                  <path d="M12 2C6.478 2 2 6.478 2 12C2 17.522 6.478 22 12 22C17.522 22 22 17.522 22 12C22 6.478 17.522 2 12 2ZM12.0781 17.3529C11.4591 17.3529 10.8615 17.2655 10.2994 17.1036L8.28281 18.25V16.0933C6.9321 15.0655 6.06952 13.5001 6.06952 11.7469C6.06952 8.65054 8.75964 6.14062 12.0781 6.14062C15.3968 6.14062 18.0867 8.65054 18.0867 11.7469C18.0867 14.8429 15.3968 17.3529 12.0781 17.3529Z"/>
+              </svg>
+              <!-- Acts as a label that is hidden from view -->
+              <span class="visually-hidden">https://messenger.com/t/eveesztetika</span>
+          </a>
+
+
+          <!-- instagram -->
+          <a class="logo" aria-label="instagram" href="https://www.instagram.com/eve.esztetika">
+              <!-- Hide the icon from assistive technology -->
+              <svg class="instagram"  aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.9141 12C13.9141 13.0571 13.0571 13.9141 12 13.9141C10.9429 13.9141 10.0859 13.0571 10.0859 12C10.0859 10.9429 10.9429 10.0859 12 10.0859C13.0571 10.0859 13.9141 10.9429 13.9141 12Z"/>
+                  <path d="M16.476 8.61356C16.3839 8.36423 16.2372 8.13855 16.0464 7.95331C15.8612 7.76257 15.6357 7.61578 15.3862 7.52377C15.1838 7.44519 14.8799 7.35165 14.32 7.32617C13.7144 7.29855 13.5328 7.2926 11.9996 7.2926C10.4663 7.2926 10.2847 7.2984 9.67923 7.32602C9.11938 7.35165 8.81528 7.44519 8.6131 7.52377C8.36362 7.61578 8.13794 7.76257 7.95285 7.95331C7.76212 8.13855 7.61533 8.36407 7.52316 8.61356C7.44458 8.81589 7.35104 9.12 7.32556 9.67984C7.29794 10.2853 7.29199 10.4669 7.29199 12.0002C7.29199 13.5334 7.29794 13.715 7.32556 14.3206C7.35104 14.8805 7.44458 15.1844 7.52316 15.3868C7.61533 15.6363 7.76196 15.8618 7.9527 16.047C8.13794 16.2378 8.36346 16.3846 8.61295 16.4766C8.81528 16.5553 9.11938 16.6488 9.67923 16.6743C10.2847 16.7019 10.4661 16.7077 11.9995 16.7077C13.533 16.7077 13.7146 16.7019 14.3199 16.6743C14.8797 16.6488 15.1838 16.5553 15.3862 16.4766C15.887 16.2834 16.2828 15.8876 16.476 15.3868C16.5545 15.1844 16.6481 14.8805 16.6737 14.3206C16.7013 13.715 16.7071 13.5334 16.7071 12.0002C16.7071 10.4669 16.7013 10.2853 16.6737 9.67984C16.6482 9.12 16.5547 8.81589 16.476 8.61356ZM11.9996 14.9487C10.3711 14.9487 9.05087 13.6287 9.05087 12.0001C9.05087 10.3715 10.3711 9.05148 11.9996 9.05148C13.6281 9.05148 14.9482 10.3715 14.9482 12.0001C14.9482 13.6287 13.6281 14.9487 11.9996 14.9487ZM15.0648 9.62399C14.6843 9.62399 14.3757 9.31546 14.3757 8.93491C14.3757 8.55435 14.6843 8.24582 15.0648 8.24582C15.4454 8.24582 15.7539 8.55435 15.7539 8.93491C15.7538 9.31546 15.4454 9.62399 15.0648 9.62399Z"/>
+                  <path d="M12 2C6.478 2 2 6.478 2 12C2 17.522 6.478 22 12 22C17.522 22 22 17.522 22 12C22 6.478 17.522 2 12 2ZM17.7076 14.3674C17.6798 14.9787 17.5826 15.396 17.4407 15.7613C17.1424 16.5326 16.5326 17.1424 15.7613 17.4407C15.3961 17.5826 14.9787 17.6796 14.3676 17.7076C13.7552 17.7355 13.5596 17.7422 12.0002 17.7422C10.4406 17.7422 10.2451 17.7355 9.6326 17.7076C9.02148 17.6796 8.604 17.5826 8.23886 17.4407C7.85556 17.2965 7.50858 17.0705 7.22171 16.7783C6.92966 16.4916 6.70367 16.1444 6.55948 15.7613C6.41757 15.3961 6.32037 14.9787 6.2926 14.3676C6.26437 13.7551 6.25781 13.5594 6.25781 12C6.25781 10.4406 6.26437 10.2449 6.29245 9.6326C6.32022 9.02133 6.41727 8.604 6.55917 8.23871C6.70337 7.85556 6.9295 7.50842 7.22171 7.22171C7.50842 6.9295 7.85556 6.70352 8.23871 6.55933C8.604 6.41742 9.02133 6.32037 9.6326 6.29245C10.2449 6.26453 10.4406 6.25781 12 6.25781C13.5594 6.25781 13.7551 6.26453 14.3674 6.2926C14.9787 6.32037 15.396 6.41742 15.7613 6.55917C16.1444 6.70337 16.4916 6.9295 16.7784 7.22171C17.0705 7.50858 17.2966 7.85556 17.4407 8.23871C17.5827 8.604 17.6798 9.02133 17.7077 9.6326C17.7356 10.2449 17.7422 10.4406 17.7422 12C17.7422 13.5594 17.7356 13.7551 17.7076 14.3674Z"/>
+              </svg>
+              <!-- Acts as a label that is hidden from view -->
+              <span class="visually-hidden">https://www.instagram.com/eve.esztetika</span>
+          </a>
+
+
+      </div>
+
+  </address>
+  </div>
+</footer>
+
+</body>
+</html>
